@@ -1,0 +1,72 @@
+ /* MODAL WINDOW */
+ .social {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    gap: 1rem;
+    padding: 10px;
+    margin: 0 5rem;
+  }
+ 
+.container-contact { 
+    display :grid;
+    grid-auto-columns: auto;
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+
+} 
+
+.social_header { 
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align:right;
+}
+.contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .contact-container h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .contact-info p {
+     
+    font-size: 2.5rem;
+    margin: 10px 0;
+  }
+  
+  .contact-info a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .contact-info a:hover {
+    text-decoration: underline;
+  }
+  .contact-links {
+    margin-top: 40px;
+  }
+  
+  .contact-link {
+    display: inline-block;
+    margin: 30px;
+    text-decoration: none;
+    color: #000;
+    font-size: 2.5em;
+  }
+  
+  .contact-link img {
+    width: 96px;
+    height: 96px;
+    vertical-align: middle;
+    margin-right: 15px;
+  }
+  
+  .contact-link:hover {
+    color: #007bff;
+  }
