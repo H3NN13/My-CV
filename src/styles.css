@@ -1,5 +1,4 @@
-/* The page is NOT responsive. You can implement responsiveness yourself if you wanna have some fun 😃 */
-
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
 :root {
   --color-primary: #c4c4c4;
   --color-secondary: #c7c7c7;
@@ -10,7 +9,7 @@
   --color-primary-opacity: #5ec5763a;
   --color-secondary-opacity: #ffcd0331;
   --color-tertiary-opacity: #ff58602d;
-  --gradient-primary: linear-gradient(to top left, #39b385, #9be15d);
+  --gradient-primary: linear-gradient(to top left, #62a2df, #8ad6e9);
   --gradient-secondary: linear-gradient(to top left, #ffb003, #ffcb03);
 }
 
@@ -120,16 +119,14 @@ img {
 /* FEATURES */
 .education {
   display: grid;
-  grid-template-columns: 60px 1fr;
+  grid-template-columns: 20vh 1fr;
   gap: 1rem;
   padding: 20px;
   margin: 0 5rem;
 }
 
 .education__img {
-  width: 200%;
-   
- 
+  width: 125%;
 }
 
 .education__feature {
