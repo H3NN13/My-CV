@@ -28,14 +28,17 @@
 .nav-img{ 
   height: 4.5rem;
   transition: all 0.3s;
-}
+} 
+
 .nav-item {
-  
+  font-weight: bold;
   font-size: 1.6rem;
   color: #eee;
   text-decoration: none;
 }
+ 
 .nav-icon:hover{ 
   background-color: #69acd8;
   
-} 
+}
+ 
