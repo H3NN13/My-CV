@@ -1,29 +1,42 @@
- 
-<nav class="nav">
-    <img
-          src="../../assets/hw-logo.jpg"
-          alt="HW logo"
-          class="nav__logo"
-          id="logo"
-        />
-    <ul class="nav__links">
-      <li class="nav__item">
-        <a class="nav__link" routerLink="">Home</a>
-      </li>
-      <li class="nav__item">
-        <a class="nav__link" routerLink="about">About Me</a>
-      </li>
-      <li class="nav__item">
-        <a class="nav__link" routerLink="legal-me">Legal Me</a>
-      </li>
-      <li class="nav__item">
-        <a class="nav__link" routerLink="tech-me">Tech Me</a>
-      </li>
-      <li class="nav__item">
-        <a class="nav__link" routerLink="contact">Contact Me</a>
-      </li>
-    </ul>
-  </nav>
+
+<nav class="navbar">
+  <div class="navbar-center">
+      <span class = "nav-icon">
+          <img class = "nav-img"
+      src="../../assets/hw-logo.jpg">
+      </span>
+       
+      <div class="cart-btn">
+          <span class="nav-icon" >
+            <a class="footer__link" routerLink="">Home</a>
+          </span>
+           
+      </div>
+      <div class="cart-btn">
+        <span class="nav-icon" >
+          <a class="footer__link" routerLink="about">About Me</a>
+        </span>
+         
+      </div>  
+        <div class="cart-btn">
+          <span class="nav-icon" >
+            <a class="footer__link" routerLink="legal-me">Legal Me</a>
+          </span>
+           
+       </div>
+      
+      <div class="cart-btn">
+        <span class="nav-icon" >
+          <a class="footer__link" routerLink="tech-me">Tech Me</a>
+        </span>
+     </div>
+     <div class="cart-btn">
+      <span class="nav-icon" >
+        <a class="footer__link" routerLink="contact">Contact Me</a>
+      </span>
+   </div>
+  </div>
+</nav>
  
   <router-outlet></router-outlet>
   

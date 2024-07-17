@@ -1,26 +1,9 @@
- /* MODAL WINDOW */
- .social {
-    display: grid;
-    grid-template-columns: 100px 1fr;
-    gap: 1rem;
-    padding: 10px;
-    margin: 0 5rem;
-  }
  
-.container-contact { 
-    display :grid;
-    grid-auto-columns: auto;
-    padding: 100px;
-    justify-content: center;
-    align-items: center;
+ 
+ 
+ 
 
-} 
-
-.social_header { 
-    font-size: 2rem;
-    margin-bottom: 1rem;
-    text-align:right;
-}
+ 
 .contact-container {
     max-width: 600px;
     margin: 0 auto;
