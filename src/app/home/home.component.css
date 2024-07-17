@@ -84,3 +84,7 @@
         transform: translateX(0);
     }
 }
+.download { 
+  color: #c4c4c4; 
+  text-decoration: none;
+}
