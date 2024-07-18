@@ -2,7 +2,7 @@
   position: sticky;
   top: 0;
   height: 9vh;
-  width: 100%;
+  width: 100vw;
   display: flex;
   align-items: center;
   background-color: #212121;

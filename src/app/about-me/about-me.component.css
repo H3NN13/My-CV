@@ -69,3 +69,8 @@
         transform: translateX(0);
     }
 }
+.fishing-trip{ 
+  color: #6badf5; 
+  font-weight:bold; 
+  text-decoration:none;
+}
