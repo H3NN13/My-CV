@@ -9,8 +9,10 @@
 
     <div class="education">
       <img
+        id = "legal-me"
         src="../../assets/gavel-law-icon.svg"
         class="education__img"
+        (click) = "routeTo($event)"
       />
       <div class="education__feature">
         
@@ -30,10 +32,11 @@
     </div>   
     <div class="education">
         <img
+          id = "tech-me"
           src="../../assets/Programming_icon_flat_circle.svg"
           class="education__img tech"
-         
-        />
+          (click) = "routeTo($event)"
+        >
         <div class="education__feature">
           
           <h5 class="education__header">Information Technology</h5>
@@ -50,10 +53,11 @@
       </div>   
       <div class="education">
         <img
+        
           src="../../assets/chess-knight-svgrepo-com.svg"
           
           class="education__img"
-        />
+        >
         <div class="education__feature">
            
           <h5 class="education__header">Hobbies and Interests</h5>
